@@ -502,11 +502,26 @@ button.documents-favorite:active:hover {
 }
 
 //
+// Gnome Tweak Tool
+//
+.tweak-categories,
+.tweak-category:not(:selected):not(:hover) {
+  background-image: _solid($base_color);
+}
+
+//
 // Transmission
 //
 .tr-workarea undershoot,
 .tr-workarea overshoot {
   border-color: transparent; // Remove black border on over- and undershoot
+}
+
+//
+// Atril (MATE pdf viewer)
+//
+.atril-window .primary-toolbar toolbar {
+  background: none;
 }
 
 //
